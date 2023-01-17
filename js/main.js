@@ -12,6 +12,6 @@ function colorByTime(){
     second <= 9 ? second = '0' + second : second;
     document.querySelector('body').style.backgroundColor = '#' + hour + minute + second;
     document.getElementById('time').innerHTML = `${hour} : ${minute} : ${second}`;
-    document.getElementById('color').innerHTML = '#'+hour+minute+second;
+    document.getElementById('color').innerHTML = '#' + hour + minute + second;
     document.getElementById('title').style.color = '#fff';
 }
